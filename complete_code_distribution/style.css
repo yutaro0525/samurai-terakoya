@@ -1,0 +1,223 @@
+
+
+@media screen and (min-width: 768px){
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 20px auto 20px auto;
+}
+
+#logo {
+  font-size: 34px;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 10px 30px 10px 30px ;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#nav-pc {
+  margin-right: 20px;
+  font-size: 34px;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#nav-pc > a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000;
+}
+
+.camera {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.s-title {
+  text-align: center;
+  margin: 50px 0 30px 0;
+  font-size: 34px;
+}
+
+
+
+
+#inabout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+
+#face {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid gray;
+  padding: 5px;
+}
+
+
+li {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+}
+
+.name {
+  font-size: 24px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+}
+
+#works {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+  max-width: 800px;
+}
+
+.photo {
+  padding-bottom: 60px;
+  width: auto;
+}
+
+.photo > p {
+  width: 200px;
+  text-align: left;
+}
+
+
+.works {
+  width: 190px;
+  height: 150px;
+}
+
+footer p {
+  font-size: 18px;
+  text-align: center;
+  font-family:  "Noto Sans JP", sans-serif;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto 20px auto;
+  }
+  
+  #logo {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding: 10px 20px 10px 20px ;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  #nav-pc {
+    margin-right: 20px;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  #nav-pc > a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+  }
+  
+  .camera {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .s-title {
+    text-align: center;
+    margin: 50px 0 30px 0;
+    font-size: 34px;
+  }
+  
+  #inabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto 20px auto;
+  }
+  
+  #face {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid gray;
+    padding: 5px;
+    margin: 0 auto;
+  }
+  
+  #profile {
+    margin: 0 auto;
+  }
+  
+  li {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: left;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: left;
+  }
+  
+  #works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    max-width: 800px;
+  }
+  
+  .photo {
+    padding-bottom: 40px;
+    width: auto;
+  }
+  
+  .photo > p {
+    width: 300px;
+    text-align: left;
+  }
+  
+  
+  .works {
+    width: 300px;
+    height: 220px;
+  }
+  
+  footer p {
+    font-size: 18px;
+    text-align: center;
+    font-family:  "Noto Sans JP", sans-serif;
+  }
+
+} 
